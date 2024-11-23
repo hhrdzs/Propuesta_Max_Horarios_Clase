@@ -47,4 +47,24 @@ asignaciones_profesor_disciplina = {
     "Manuela Ramírez Medina": ["Español"],
     "Olga Herrera Mireles": ["Español"],...
 }
-   
+
+3. Si se desean agregar, eliminar o actualizar los pesos para cada disciplina, se debe editar lo siguiente:
+
+pesos_disciplinas = {
+    "Matemáticas": 10,             # Peso muy alto
+    "Laboratorio": 9,              # Peso muy alto
+    "Ciencias": 8,                 # Peso alto
+    ...
+}
+
+4. Si se desean agregar, eliminar o actualizar los pesos para cada profesor, con base en el número de clases que imparten, se debe editar lo siguiente:
+
+pesos_profesores = {
+    "Juan Carlos Marín Esquivel": 35,                 # Peso muy alto
+    "Francisco Javier Gallardo Delgado": 35,          # Peso muy alto
+    "Ma. Guadalupe Rendón Álvarez": 34,               # Peso muy alto
+    ...
+}
+
+5. Finalmente, si se desean agregar más restricciones al modelo, se deberán de incluir antes de la instrucción:
+prob.solve()
