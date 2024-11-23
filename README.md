@@ -1,1 +1,20 @@
-Manual rápido de referencia para programa que optimiza la asignación de horarios en la 
+################################################################################
+#                                                                              #
+#  Universidad Abierta y a Distancia de México                                 #
+#  División de Ciencias Exactas, Ingeniería y Tecnología                       #
+#  Licenciatura en Matemáticas                                                 #
+#  Proyecto: Aplicación de técnicas de investigación de operaciones para       #
+#            optimizar la asignación de horarios de trabajo en el ámbito       #
+#            educativo: un enfoque específico en Escuelas Secundarias de       #
+#            Aguascalientes                                                    #
+#  Estudiante:  Héctor Humberto Rodríguez Silva                                #
+#  Matrícula:   ES1821013343                                                   #
+#  Asesor Interno:  Dra. María del Alba Pacheco Blas                           #
+#  Sinodales:       Mtra. Laura Granados González                              #
+#                   Mtro. Orlando Fabián Echeverría Alonso                     #
+#                   Mtro. Manuel López Mateos                                  #
+#  Asesor Externo:  Mtro. Humberto Rodríguez Gómez                             #
+#                                                                              #
+#  Aguascalientes, Ags. a 22 de octubre de 2024                                #
+#                                                                              #
+################################################################################
