@@ -18,5 +18,33 @@ Sinodales:       Mtra. Laura Granados González, Mtro. Orlando Fabián Echeverr�
 
 Asesor Externo:  Mtro. Humberto Rodríguez Gómez
 
-Aguascalientes, Ags. a 22 de octubre de 2024
+Aguascalientes, Ags. a 22 de noviembre de 2024
 
+______________________________________________
+
+1. Si se desean agregar, eliminar o actualizar las listas de grupos, días, clases, disciplinas y profesores, se debe de realizar lo propio en las siguientes líenas del código:
+   
+grupos = ["1A", "1B", "1C", "1D", "1E", "1F", "2A", "2B", "2C", "2D", "2E", "2F", "3A", "3B", "3C", "3D", "3E", "3F"]
+
+dias = ["Lunes", "Martes", "Miércoles", "Jueves", "Viernes"]
+
+clases = ["Clase de 7 a 8 am", "Clase de 8 a 9 am", "Clase de 9 a 10 am", "Clase de 10 a 11 am",
+          "Clase de 11 am a 12 pm", "Clase de 12 pm a 1 pm", "Clase de 1 a 2 pm"]
+
+disciplinas = [
+    "Artes", "Ciencias", "Educación Física", "Español", "Formación Cívica y Ética", "Geografía",
+    "Historia", "Inglés", "Integración Curricular", "Laboratorio", "Matemáticas", "Tecnología", "Tutoría",
+]
+
+profesores = [
+    "Juan Carlos Marín Esquivel", "Manuela Ramírez Medina", "Olga Herrera Mireles", ..."
+]
+
+2. Si se desean agregar, eliminar o actualizar las asignaciones de profesores asignados a ciertas disciplinas, se debe editar lo siguiente:
+   
+asignaciones_profesor_disciplina = {
+    "Juan Carlos Marín Esquivel": ["Español"],
+    "Manuela Ramírez Medina": ["Español"],
+    "Olga Herrera Mireles": ["Español"],...
+}
+   
